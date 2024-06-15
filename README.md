@@ -49,8 +49,8 @@ Stop Time 6/11/2024, 7:11:44 PM
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent Windows VM | 62200
-| Syslog        Linux VM   | 4312
+| SecurityEvent Windows VM's | 62200
+| Syslog        Linux VM's  | 4312
 | SecurityAlert  Microsoft defender for cloud          | 1
 | SecurityIncident    Microsoft Sentinel     | 216
 | AzureNetworkAnalytics_CL | 1370
@@ -67,7 +67,7 @@ Stop Time	6/14/2024, 11:53:13 PM
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent Windows VM | 13758
+| SecurityEvent Windows VM's | 13758
 | Syslog  Linux VM's       | 5
 | SecurityAlert  Microsoft Defender for Cloud          | 0
 | SecurityIncident  Microsoft Sentinel       | 0
