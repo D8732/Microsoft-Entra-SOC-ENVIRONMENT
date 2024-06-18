@@ -1,4 +1,4 @@
-# AZURE-SOC-ENVIRONMENT# Building a SOC + Honeynet in Azure (Live Traffic)
+# Microsoft Entra-SOC-ENVIRONMENT# Building a SOC + Honeynet in Azure (Live Traffic)
 
 
 ## Introduction
@@ -12,11 +12,11 @@ In this project, I built a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Before](https://github.com/D8732/AZURE-SOC-ENVIRONMENT/assets/130248485/0b2b70f1-0117-40f4-a1aa-57a433cf36b9)
+![Before](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/0b2b70f1-0117-40f4-a1aa-57a433cf36b9)
 
 
 ## Architecture After Hardening / Security Controls
-![After](https://github.com/D8732/AZURE-SOC-ENVIRONMENT/assets/130248485/79e0f501-b457-4611-b708-eb0f4f7bb5f2)
+![After](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/79e0f501-b457-4611-b708-eb0f4f7bb5f2)
 
 
 The architecture of the mini honeynet in Azure consists of the following components:
@@ -34,11 +34,11 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows]![NSG-malicious-allowed-in](https://github.com/D8732/AZURE-SOC-ENVIRONMENT/assets/130248485/b2be2d49-6a97-4497-995b-46a242b5aa0e)
+![NSG Allowed Inbound Malicious Flows]![NSG-malicious-allowed-in](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/b2be2d49-6a97-4497-995b-46a242b5aa0e)
 <br>
-![Linux Syslog Auth Failures]![Linux-ssh-auth-fail](https://github.com/D8732/AZURE-SOC-ENVIRONMENT/assets/130248485/0efcf582-a6af-4d14-9eab-9f0b67717478)
+![Linux Syslog Auth Failures]![Linux-ssh-auth-fail](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/0efcf582-a6af-4d14-9eab-9f0b67717478)
 <br>
-!![windows-rdp-auth-fail](https://github.com/D8732/AZURE-SOC-ENVIRONMENT/assets/130248485/a5ba556d-56ae-48be-b969-b04ac1036637)
+!![windows-rdp-auth-fail](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/a5ba556d-56ae-48be-b969-b04ac1036637)
 <br>
 
 ## Metrics Before Hardening / Security Controls
@@ -75,7 +75,7 @@ Stop Time	6/14/2024, 11:53:13 PM
 
 
 In Microsoft Sentinel Incidents section showing process of open ticket For Possible Brute Force attempt which was deemed a true Positive, and possible steps for Remediation and Documenation
-![Steps to remediate True Positive Incident](https://github.com/D8732/AZURE-SOC-ENVIRONMENT/assets/130248485/75b08d1f-564a-4b11-a519-e4953b07e32a)
+![Steps to remediate True Positive Incident](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/75b08d1f-564a-4b11-a519-e4953b07e32a)
 
 
 
