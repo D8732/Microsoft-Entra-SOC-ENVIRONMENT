@@ -32,11 +32,14 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-NSG Malicious Attempts Allowed https://imgur.com/a/IfvABN4
+NSG Malicious Attempts Allowed ![NSG-malicious-allowed-in](https://github.com/user-attachments/assets/df2a2c0e-f247-49e8-8965-1a027d5c85ef)
+
 <br>
-![Linux Syslog Auth Failures]![Linux-ssh-auth-fail] https://imgur.com/qsjPNFS
+![Linux Syslog Auth Failures]![Linux-ssh-auth-fail] ![Linux-ssh-auth-fail](https://github.com/user-attachments/assets/6eb9e819-ad03-46e4-a1fe-92ab610db0e7)
+
 <br>
-!![windows-rdp-auth-fail] https://imgur.com/4A4eqxI
+!![windows-rdp-auth-fail] ![windows-rdp-auth-fail](https://github.com/user-attachments/assets/8f1cfc91-49f3-4856-a7ba-3ab9a4f76fe3)
+
 <br>
 
 ## Metrics Before Hardening / Security Controls
@@ -73,7 +76,8 @@ Stop Time	6/14/2024, 11:53:13 PM
 
 
 In Microsoft Sentinel Incidents section showing process of open ticket For Possible Brute Force attempt which was deemed a true Positive, and possible steps for Remediation and Documenation
-![Steps to remediate True Positive Incident] https://imgur.com/eUq674V
+![Steps to remediate True Positive Incident] ![Steps to remediate True Positive Incident](https://github.com/user-attachments/assets/48ae541f-3df1-456f-a79e-4d25f4e9e014)
+
 
 
 
