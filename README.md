@@ -1,6 +1,9 @@
 # Microsoft Entra-SOC-ENVIRONMENT# Building a SOC + Honeynet in Azure (Live Traffic)
 
 
+https://imgur.com/FEoJ7Ce
+
+
 ## Introduction
 
 In this project, I built a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, applied  security controls to harden the environment, measured metrics for another 24 hours, then show the results below. The metrics I will show are:
