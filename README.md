@@ -1,7 +1,8 @@
 # Microsoft Entra-SOC-ENVIRONMENT# Building a SOC + Honeynet in Azure (Live Traffic)
 
 
-https://imgur.com/FEoJ7Ce
+![Before](https://github.com/user-attachments/assets/df0a5ab1-baf8-4ba7-b6ae-94bc42154d53)
+
 
 
 ## Introduction
