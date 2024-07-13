@@ -36,9 +36,9 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Attack Maps Before Hardening / Security Controls
 NSG Malicious Attempts Allowed https://imgur.com/a/IfvABN4
 <br>
-![Linux Syslog Auth Failures]![Linux-ssh-auth-fail] "C:\Users\USER\OneDrive\Pictures\Azure Cloud Soc LAb\Linux-ssh-auth-fail.png"
+![Linux Syslog Auth Failures]![Linux-ssh-auth-fail] https://imgur.com/qsjPNFS
 <br>
-!![windows-rdp-auth-fail] "C:\Users\USER\OneDrive\Pictures\Azure Cloud Soc LAb\windows-rdp-auth-fail.png"
+!![windows-rdp-auth-fail] https://imgur.com/4A4eqxI
 <br>
 
 ## Metrics Before Hardening / Security Controls
@@ -75,7 +75,7 @@ Stop Time	6/14/2024, 11:53:13 PM
 
 
 In Microsoft Sentinel Incidents section showing process of open ticket For Possible Brute Force attempt which was deemed a true Positive, and possible steps for Remediation and Documenation
-![Steps to remediate True Positive Incident](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/75b08d1f-564a-4b11-a519-e4953b07e32a)
+![Steps to remediate True Positive Incident] https://imgur.com/eUq674V
 
 
 
