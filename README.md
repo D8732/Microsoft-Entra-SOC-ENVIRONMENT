@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this project, I built a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, applied  security controls to harden the environment, measure metrics for another 24 hours, then show the results below. The metrics I will show are:
+In this project, I built a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, applied  security controls to harden the environment, measured metrics for another 24 hours, then show the results below. The metrics I will show are:
 
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
@@ -11,12 +11,6 @@ In this project, I built a mini honeynet in Azure and ingest log sources from va
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Hardening / Security Controls
-![Before](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/0b2b70f1-0117-40f4-a1aa-57a433cf36b9)
-
-
-## Architecture After Hardening / Security Controls
-![After](https://github.com/D8732/MicrosoftEntra-SOC-ENVIRONMENT/assets/130248485/79e0f501-b457-4611-b708-eb0f4f7bb5f2)
 
 
 The architecture of the mini honeynet in Azure consists of the following components:
@@ -76,6 +70,25 @@ Stop Time	6/14/2024, 11:53:13 PM
 
 In Microsoft Sentinel Incidents section showing process of open ticket For Possible Brute Force attempt which was deemed a true Positive, and possible steps for Remediation and Documenation
 ![Steps to remediate True Positive Incident] https://imgur.com/eUq674V
+
+
+
+Preparation
+
+The Azure lab was set up to ingest logs into Log Analytics Workspace.
+Sentinel and Defender were configured, and alert rules were established.
+Detection & Analysis
+
+Alert ownership was assigned with "High" severity and "Active" status.
+Affected systems were identified.
+Containment, Eradication & Recovery
+
+Infected systems were quarantined, and, if necessary, shut down.
+Post-Incident Activity
+
+The incident was analyzed, root causes were determined, and response effectiveness was assessed.
+Corrective actions were implemented to address root causes.
+A lessons-learned review of the incident was conducted.
 
 
 
