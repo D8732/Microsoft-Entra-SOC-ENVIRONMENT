@@ -34,10 +34,13 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Attack Maps Before Hardening / Security Controls
 NSG Malicious Attempts Allowed ![NSG-malicious-allowed-in](https://github.com/user-attachments/assets/df2a2c0e-f247-49e8-8965-1a027d5c85ef)
 
-<br>
-![Linux Syslog Auth Failures]![Linux-ssh-auth-fail] ![Linux-ssh-auth-fail](https://github.com/user-attachments/assets/6eb9e819-ad03-46e4-a1fe-92ab610db0e7)
 
-<br>
+Linux Syslog Auth Failures ![Linux-ssh-auth-fail](https://github.com/user-attachments/assets/53bb3035-2b69-44c9-86a4-4f149292944e)
+
+
+
+
+
 !![windows-rdp-auth-fail] ![windows-rdp-auth-fail](https://github.com/user-attachments/assets/8f1cfc91-49f3-4856-a7ba-3ab9a4f76fe3)
 
 <br>
