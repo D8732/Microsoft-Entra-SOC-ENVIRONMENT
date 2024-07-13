@@ -34,7 +34,7 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-"C:\Users\USER\OneDrive\Pictures\Azure Cloud Soc LAb\NSG-malicious-allowed-in.png"
+NSG Malicious Attempts Allowed https://imgur.com/a/IfvABN4
 <br>
 ![Linux Syslog Auth Failures]![Linux-ssh-auth-fail] "C:\Users\USER\OneDrive\Pictures\Azure Cloud Soc LAb\Linux-ssh-auth-fail.png"
 <br>
